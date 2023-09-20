@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    background-color: #333;
+}
+.item{
+    padding: 10px;
+    font-family: #fff;
+}
+.item:hover{
+    background-color: rgb(250, 250, 250,.3);
+}
+.container2{
+    display: grid;
+    grid-template-columns: auto, auto, auto, auto;
+    background-color: rgb(240, 240, 240);
+    padding: 20px;
+
+}
